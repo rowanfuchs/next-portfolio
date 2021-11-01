@@ -1,0 +1,28 @@
+{
+  "name": "next",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@reduxjs/toolkit": "^1.6.2",
+    "next": "12.0.1",
+    "next-redux-wrapper": "^7.0.5",
+    "react": "17.0.2",
+    "react-dom": "17.0.2",
+    "react-redux": "^7.2.6",
+    "react-toggle-dark-mode": "^1.0.4"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.0",
+    "eslint": "7",
+    "eslint-config-next": "12.0.1",
+    "postcss": "^8.3.11",
+    "redux-devtools-extension": "^2.13.9",
+    "tailwindcss": "^2.2.19"
+  }
+}

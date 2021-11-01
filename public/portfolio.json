@@ -1,0 +1,99 @@
+[
+    {
+        "index": 0,
+        "date": "Nov 2018",
+        "title": "Shoptrader POS",
+        "image": "/assets/portfolio/stpos.jpg",
+        "description": "Shoptrader POS is a small but accessible and user friendly Point Of Sale system which is tied to the API of the framework of Shoptrader. Shoptrader POS provides a modern extension to direct sales in retail with QR, PIN and Cash payment methods.",
+        "types": [
+            "all",
+            "laravel",
+            "jquery"
+        ]
+    },
+    {
+        "index": 1,
+        "date": "Mar 2019",
+        "title": "Slim met muziek in de klas",
+        "image": "/assets/portfolio/muziekregenboog.jpg",
+        "description": "Slim met muziek in de klas is a system where kids can take courses guided by music.",
+        "types": [
+            "all",
+            "pwa",
+            "laravel",
+            "vue"
+        ]
+    },
+    {
+        "index": 2,
+        "date": "Feb 2018",
+        "title": "Knowledge Docs",
+        "image": "/assets/portfolio/knowledgedocs.png",
+        "description": "Knowledge Docs is a CodeIgniter 3 product where the client can build his Knowledge base with all the necessary features to make a intuitive and informate Knowledge base",
+        "types": [
+            "all",
+            "jquery",
+            "codeigniter"
+        ]
+    },
+    {
+        "index": 3,
+        "date": "Feb 2019",
+        "title": "UserAdmin",
+        "image": "/assets/portfolio/useradmin.jpg",
+        "description": "UserAdmin is a Laravel 5.8 product where the client can maintain users and their subscriptions. UserAdmin provides many features for a clean and functional subscription solution for any product.",
+        "types": [
+            "all",
+            "laravel"
+        ]
+    },
+    {
+        "index": 4,
+        "date": "Feb 2019",
+        "title": "Multi-site.nl",
+        "image": "/assets/portfolio/multi-site_nl.jpg",
+        "description": "Multi-site.nl is a website builder based on Vebto's Architect (Laravel 5.4)",
+        "types": [
+            "all",
+            "laravel",
+            "jquery"
+        ]
+    },
+    {
+        "index": 5,
+        "date": "Feb ****",
+        "title": "999 Games - B2B Sales Dashboard",
+        "image": "/assets/portfolio/999games_mercury.png",
+        "description": "999 Games - B2B Sales Dashboard is a Laravel 6.0 + VueJS application in which the Sales department of 999 Games has a single view of all the data they need.",
+        "types": [
+            "all",
+            "laravel",
+            "pwa",
+            "vue"
+        ]
+    },
+    {
+        "index": 6,
+        "date": "Feb ****",
+        "title": "999 Games - Adventskalendar",
+        "image": "/assets/portfolio/999games_advents.png",
+        "description": "The advents calendar of 999 Games was made in Laravel 6.0 and has been setup dynamically, so that no human actions are required when initiating an event. Each day shows a different gift and all gifts are only shown on the day that they have been planned.",
+        "types": [
+            "all",
+            "laravel",
+            "jquery"
+        ]
+    },
+    {
+        "index": 7,
+        "date": "Mar 2013",
+        "title": "Cloudcanyon",
+        "image": "/assets/portfolio/cloudcanyon.png",
+        "description": "Cloudcanyon is a professional, creative and progressive IT company. We continuously explore the limits of the technologies we use. Creativity, effectiveness, quality and affordability are our keywords.",
+        "types": [
+            "all",
+            "laravel",
+            "jquery"
+        ]
+    }
+]
