@@ -8,13 +8,13 @@ body {
 }
 
 .timeline-img {
-    @apply object-cover w-24 h-24 border-2 border-gray-200 rounded-full shadow-md sm:absolute md:mx-auto md:left-0 md:right-0;
+    @apply object-cover w-24 h-24 border-2 border-gray-200 rounded-full shadow-md sm:absolute md:mx-auto md:left-0 md:right-0 dark:border-gray-900;
 }
 .timeline-container {
     @apply relative pt-2 sm:pl-28 sm:pt-0 md:w-1/2 md:ml-auto md:pl-16;
 }
 .timeline-pointer {
-    @apply absolute inset-0 w-4 h-4 transform rotate-45 bg-gray-200 left-10 sm:top-11 sm:left-28 md:left-14;
+    @apply absolute inset-0 w-4 h-4 transform rotate-45 bg-gray-200 left-10 sm:top-11 sm:left-28 md:left-14 dark:bg-gray-900;
 }
 .timeline-pointer-left {
     @apply md:left-auto md:right-14;
