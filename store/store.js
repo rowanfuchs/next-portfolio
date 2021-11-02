@@ -6,4 +6,4 @@ import rootReducer from './reducer';
 const makeStore = context => createStore(rootReducer);
 
 // export an assembled wrapper
-export const wrapper = createWrapper(makeStore, {debug: true});
+export const wrapper = createWrapper(makeStore, {debug: false});

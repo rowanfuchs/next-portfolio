@@ -1,6 +1,6 @@
 [
     {
-        "index": 13,
+        "index": 14,
         "date": "Okt 2021",
         "title": "999 Games - Outlet Sale Dashboard",
         "image": "/assets/portfolio/999games_os_dashboard.png",
@@ -11,10 +11,11 @@
             "docker",
             "tailwind",
             "vue"
-        ]
+        ],
+        "cancelled": false
     },
     {
-        "index": 12,
+        "index": 13,
         "date": "Sept 2021",
         "title": "999 Games - Exit",
         "image": "/assets/portfolio/999games_exit.png",
@@ -25,13 +26,14 @@
             "tailwind",
             "nuxt",
             "vue"
-        ]
+        ],
+        "cancelled": false
     },
     {
-        "index": 11,
+        "index": 12,
         "date": "Mar 2021",
         "title": "Foodie",
-        "image": "/assets/portfolio/foodie.png",
+        "image": "/assets/portfolio/foodie.jpg",
         "description": "Foodie is an app where you can create a private or public group in which you can share recipes or let others share theirs.",
         "types": [
             "all",
@@ -39,10 +41,11 @@
             "capacitor",
             "quasar",
             "vue"
-        ]
+        ],
+        "cancelled": false
     },
     {
-        "index": 10,
+        "index": 11,
         "date": "Nov 2020",
         "title": "999 Games - B2B Sales Dashboard",
         "image": "/assets/portfolio/999games_mercury.png",
@@ -54,10 +57,11 @@
             "laravel",
             "quasar",
             "vue"
-        ]
+        ],
+        "cancelled": false
     },
     {
-        "index": 9,
+        "index": 10,
         "date": "Nov 2020",
         "title": "999 Games - B2B3",
         "image": "/assets/portfolio/999games_b2b3.png",
@@ -71,10 +75,41 @@
             "quasar",
             "node",
             "vue"
-        ]
+        ],
+        "cancelled": false
+    },
+    {
+        "index": 9,
+        "date": "Okt 2020",
+        "title": "Review.info",
+        "image": "/assets/portfolio/review.png",
+        "description": "Review.info is a review system where visitors can add products or services and add their experience to help others find quality products and services.",
+        "types": [
+            "all",
+            "docker",
+            "laravel",
+            "quasar",
+            "vue"
+        ],
+        "cancelled": true
     },
     {
         "index": 8,
+        "date": "Mei 2020",
+        "title": "Boeking.online",
+        "image": "/assets/portfolio/boeking.png",
+        "description": "Boeking.online is a reservation system that supports any type of reservation based on availability provided via a fully fledged admin panel",
+        "types": [
+            "all",
+            "docker",
+            "laravel",
+            "quasar",
+            "vue"
+        ],
+        "cancelled": true
+    },
+    {
+        "index": 7,
         "date": "Apr 2020",
         "title": "999 Games - Menu",
         "image": "/assets/portfolio/999games_menu.png",
@@ -84,10 +119,11 @@
             "docker",
             "quasar",
             "vue"
-        ]
+        ],
+        "cancelled": false
     },
     {
-        "index": 7,
+        "index": 6,
         "date": "Nov 2019",
         "title": "999 Games - Adventskalendar",
         "image": "/assets/portfolio/999games_advents.png",
@@ -97,10 +133,11 @@
             "docker",
             "laravel",
             "jquery"
-        ]
+        ],
+        "cancelled": false
     },
     {
-        "index": 6,
+        "index": 5,
         "date": "Okt 2019",
         "title": "999 Games - Product Locator",
         "image": "/assets/portfolio/999games_product_locator.png",
@@ -110,19 +147,8 @@
             "quasar",
             "all",
             "vue"
-        ]
-    },
-    {
-        "index": 5,
-        "date": "Mar 2019",
-        "title": "Slim met muziek in de klas",
-        "image": "/assets/portfolio/muziekregenboog.jpg",
-        "description": "Slim met muziek in de klas is a system where kids can take courses guided by music.",
-        "types": [
-            "all",
-            "laravel",
-            "vue"
-        ]
+        ],
+        "cancelled": false
     },
     {
         "index": 4,
@@ -133,7 +159,8 @@
         "types": [
             "all",
             "laravel"
-        ]
+        ],
+        "cancelled": true
     },
     {
         "index": 3,
@@ -145,7 +172,8 @@
             "all",
             "laravel",
             "jquery"
-        ]
+        ],
+        "cancelled": true
     },
     {
         "index": 2,
@@ -157,7 +185,8 @@
             "all",
             "jquery",
             "codeigniter"
-        ]
+        ],
+        "cancelled": false
     },
     {
         "index": 1,
@@ -169,7 +198,8 @@
             "all",
             "laravel",
             "jquery"
-        ]
+        ],
+        "cancelled": false
     },
     {
         "index": 0,
@@ -181,6 +211,7 @@
             "all",
             "laravel",
             "jquery"
-        ]
+        ],
+        "cancelled": false
     }
 ]

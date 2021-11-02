@@ -1,6 +1,7 @@
 import Layout from '../components/layout';
 import {useSelector} from 'react-redux';
 import Timeline from "../components/timeline";
+import Stack from "../components/stack";
 
 
 export default function Index() {
@@ -8,14 +9,7 @@ export default function Index() {
     const images = [
         {title: "HTML", src: "/html5.svg"},
         {title: "Javascript", src: "/javascript.svg"},
-        {title: "CSS", src: "/css.svg"},
-        /*{title: "Docker", src: "/docker.svg"},
-        {title: "Git", src: "/git.svg"},
-        {title: "MySQL", src: "/mysql.svg"},
-        {title: "PHP", src: "/php.svg"},
-        {title: "React", src: "/react.svg"},
-        {title: "Tailwind CSS", src: "/tailwindcss.svg"},
-        {title: "Vue.js", src: "/vuejs.svg"},*/
+        {title: "CSS", src: "/css.svg"}
     ]
 
     const open = (url) => {
@@ -25,7 +19,7 @@ export default function Index() {
 
     return (
         <>
-            <section className="relative block h-120">
+            <section className="relative block h-96 md:h-120">
                 <div className="absolute top-0 w-full h-full bg-center bg-cover" style={{
                     backgroundImage: "url('/credits-pexels-photo-3801463.jpeg')",
                 }}>
@@ -55,7 +49,7 @@ export default function Index() {
                                     </div>
                                 </div>
                                 <div className="w-full lg:w-4/12 px-4 lg:order-3 lg:text-right lg:self-center">
-                                    <div className="py-6 px-3 mt-32 sm:mt-0">
+                                    <div className="flex justify-center md:justify-end py-6 px-3 mt-6 md:mt-0">
                                         <button
                                             className="bg-blue-500 active:bg-blue-600 uppercase text-white font-bold hover:shadow-md shadow text-xs px-4 py-2 rounded outline-none focus:outline-none sm:mr-2 mb-1 ease-linear transition-all duration-150"
                                             type="button" onClick={() => open('https://linkedin.com/in/rowanfuchs/')}>
@@ -71,9 +65,9 @@ export default function Index() {
                                     </div>
                                 </div>
                             </div>
-                            <div className="text-center mt-12">
+                            <div className="text-center mt-6 md:mt-12">
                                 <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-700 dark:text-gray-200 mb-2">
-                                    Rowan Ryuichi Fuchs
+                                    Rowan <span className="hidden md:inline-block">Ryuichi</span> Fuchs
                                 </h3>
                                 <div className="text-sm leading-normal mt-0 mb-2 text-gray-400 font-bold uppercase">
                                     Almere, The Netherlands
@@ -88,6 +82,7 @@ export default function Index() {
                                         <p className="text-lg leading-relaxed text-gray-700 dark:text-gray-200">
                                             I am an enthusiastic, creative and ambitious person who is always willing to
                                             learn and broaden my experience.
+                                            {/* eslint-disable-next-line react/no-unescaped-entities */}
                                             I'm always looking for a challenge and adapt easily to new environments.
                                             I enjoy working independently while also thrive when working in a team.
                                         </p>
@@ -110,7 +105,21 @@ export default function Index() {
                                 </div>
                             </div>
                         </div>
+                    </div><div
+                    className="bg-white w-full mb-6 shadow-xl rounded-lg dark:bg-gray-800">
+                    <div className="mt-10 py-10 border-t border-gray-300 dark:border-gray-700 text-center">
+                        <div className="text-center">
+                            <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-700 dark:text-gray-200 mb-2">
+                                Stack
+                            </h3>
+                        </div>
+                        <div className="flex flex-wrap justify-center">
+                            <div className="w-full lg:w-10/12 px-4">
+                                <Stack/>
+                            </div>
+                        </div>
                     </div>
+                </div>
                 </div>
             </section>
         </>
