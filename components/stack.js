@@ -6,13 +6,13 @@ const Stack = () => {
         {title: "HTML", src: "/html5.svg"},
         {title: "Javascript", src: "/javascript.svg"},
         {title: "CSS", src: "/css.svg"},
+        {title: "Vue.js", src: "/vuejs.svg"},
+        {title: "React", src: "/react.svg"},
+        {title: "Tailwind CSS", src: "/tailwindcss.svg"},
         {title: "Docker", src: "/docker.svg"},
         {title: "Git", src: "/git.svg"},
         {title: "MySQL", src: "/mysql.svg"},
         {title: "PHP", src: "/php.svg"},
-        {title: "React", src: "/react.svg"},
-        {title: "Tailwind CSS", src: "/tailwindcss.svg"},
-        {title: "Vue.js", src: "/vuejs.svg"},
     ]
     return (
         <>
