@@ -1,6 +1,6 @@
 [
     {
-        "index": 12,
+        "index": 13,
         "date": "Okt 2021",
         "title": "999 Games - Outlet Sale Dashboard",
         "image": "/assets/portfolio/999games_os_dashboard.png",
@@ -14,7 +14,7 @@
         ]
     },
     {
-        "index": 11,
+        "index": 12,
         "date": "Sept 2021",
         "title": "999 Games - Exit",
         "image": "/assets/portfolio/999games_exit.png",
@@ -24,6 +24,20 @@
             "docker",
             "tailwind",
             "nuxt",
+            "vue"
+        ]
+    },
+    {
+        "index": 11,
+        "date": "Mar 2021",
+        "title": "Foodie",
+        "image": "/assets/portfolio/foodie.png",
+        "description": "Foodie is an app where you can create a private or public group in which you can share recipes or let others share theirs.",
+        "types": [
+            "all",
+            "laravel",
+            "capacitor",
+            "quasar",
             "vue"
         ]
     },
@@ -63,7 +77,7 @@
         "index": 8,
         "date": "Apr 2020",
         "title": "999 Games - Menu",
-        "image": "/assets/portfolio/999games_menu.jpg",
+        "image": "/assets/portfolio/999games_menu.png",
         "description": "999 Games - menu is a promotional single page which uses a Magento plugin to add products to a checkout hosted on the main website of 999 Games.",
         "types": [
             "all",
