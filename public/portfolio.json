@@ -1,6 +1,152 @@
 [
     {
-        "index": 0,
+        "index": 12,
+        "date": "Okt 2021",
+        "title": "999 Games - Outlet Sale Dashboard",
+        "image": "/assets/portfolio/999games_os_dashboard.png",
+        "description": "999 Games - Outlet Sale Dashboard is a Lumen 8.0 + Vue.js application styled with Tailwind CSS which provides an overview of the sales of the selected or current day.",
+        "types": [
+            "all",
+            "lumen",
+            "docker",
+            "tailwind",
+            "vue"
+        ]
+    },
+    {
+        "index": 11,
+        "date": "Sept 2021",
+        "title": "999 Games - Exit",
+        "image": "/assets/portfolio/999games_exit.png",
+        "description": "Exit is a single product family website built with Nuxt.js, Tailwind CSS and Docker",
+        "types": [
+            "all",
+            "docker",
+            "tailwind",
+            "nuxt",
+            "vue"
+        ]
+    },
+    {
+        "index": 10,
+        "date": "Nov 2020",
+        "title": "999 Games - B2B Sales Dashboard",
+        "image": "/assets/portfolio/999games_mercury.png",
+        "description": "999 Games - B2B Sales Dashboard is a Laravel, Lumen + Vue.js application in which the Sales department of 999 Games has a single view of all the data they need.",
+        "types": [
+            "all",
+            "lumen",
+            "docker",
+            "laravel",
+            "quasar",
+            "vue"
+        ]
+    },
+    {
+        "index": 9,
+        "date": "Nov 2020",
+        "title": "999 Games - B2B3",
+        "image": "/assets/portfolio/999games_b2b3.png",
+        "description": "999 Games - B2B3 replaced the B2B storefront built in Vue.js (Quasar), PHP (Laravel, Lumen, Symfony), Node, Docker and Elasticsearch with a micro service architecture",
+        "types": [
+            "all",
+            "lumen",
+            "docker",
+            "laravel",
+            "elasticsearch",
+            "quasar",
+            "node",
+            "vue"
+        ]
+    },
+    {
+        "index": 8,
+        "date": "Apr 2020",
+        "title": "999 Games - Menu",
+        "image": "/assets/portfolio/999games_menu.jpg",
+        "description": "999 Games - menu is a promotional single page which uses a Magento plugin to add products to a checkout hosted on the main website of 999 Games.",
+        "types": [
+            "all",
+            "docker",
+            "quasar",
+            "vue"
+        ]
+    },
+    {
+        "index": 7,
+        "date": "Nov 2019",
+        "title": "999 Games - Adventskalendar",
+        "image": "/assets/portfolio/999games_advents.png",
+        "description": "The advents calendar of 999 Games was made in Laravel and has been setup dynamically, so that no human actions are required when initiating an event. Each day shows a different gift and all gifts are only shown on the day that they have been planned.",
+        "types": [
+            "all",
+            "docker",
+            "laravel",
+            "jquery"
+        ]
+    },
+    {
+        "index": 6,
+        "date": "Okt 2019",
+        "title": "999 Games - Product Locator",
+        "image": "/assets/portfolio/999games_product_locator.png",
+        "description": "The product locator is used to find locations of products in the outlet sale, the outlet sale is a on site sales event where customers can buy products against discounted prices.",
+        "types": [
+            "docker",
+            "quasar",
+            "all",
+            "vue"
+        ]
+    },
+    {
+        "index": 5,
+        "date": "Mar 2019",
+        "title": "Slim met muziek in de klas",
+        "image": "/assets/portfolio/muziekregenboog.jpg",
+        "description": "Slim met muziek in de klas is a system where kids can take courses guided by music.",
+        "types": [
+            "all",
+            "laravel",
+            "vue"
+        ]
+    },
+    {
+        "index": 4,
+        "date": "Feb 2019",
+        "title": "UserAdmin",
+        "image": "/assets/portfolio/useradmin.jpg",
+        "description": "UserAdmin is a Laravel product where the client can maintain users and their subscriptions. UserAdmin provides many features for a clean and functional subscription solution for any product.",
+        "types": [
+            "all",
+            "laravel"
+        ]
+    },
+    {
+        "index": 3,
+        "date": "Feb 2019",
+        "title": "Multi-site.nl",
+        "image": "/assets/portfolio/multi-site_nl.jpg",
+        "description": "Multi-site.nl is a website builder based on Vebto's Architect (Laravel)",
+        "types": [
+            "all",
+            "laravel",
+            "jquery"
+        ]
+    },
+    {
+        "index": 2,
+        "date": "Feb 2018",
+        "title": "Knowledge Docs",
+        "image": "/assets/portfolio/knowledgedocs.png",
+        "description": "Knowledge Docs is built with CodeIgniter where the client can build his Knowledge base with all the necessary features to make a intuitive and informate Knowledge base",
+        "types": [
+            "all",
+            "jquery",
+            "codeigniter"
+        ]
+    },
+    {
+        "index": 1,
         "date": "Nov 2018",
         "title": "Shoptrader POS",
         "image": "/assets/portfolio/stpos.jpg",
@@ -12,80 +158,7 @@
         ]
     },
     {
-        "index": 1,
-        "date": "Mar 2019",
-        "title": "Slim met muziek in de klas",
-        "image": "/assets/portfolio/muziekregenboog.jpg",
-        "description": "Slim met muziek in de klas is a system where kids can take courses guided by music.",
-        "types": [
-            "all",
-            "pwa",
-            "laravel",
-            "vue"
-        ]
-    },
-    {
-        "index": 2,
-        "date": "Feb 2018",
-        "title": "Knowledge Docs",
-        "image": "/assets/portfolio/knowledgedocs.png",
-        "description": "Knowledge Docs is a CodeIgniter 3 product where the client can build his Knowledge base with all the necessary features to make a intuitive and informate Knowledge base",
-        "types": [
-            "all",
-            "jquery",
-            "codeigniter"
-        ]
-    },
-    {
-        "index": 3,
-        "date": "Feb 2019",
-        "title": "UserAdmin",
-        "image": "/assets/portfolio/useradmin.jpg",
-        "description": "UserAdmin is a Laravel 5.8 product where the client can maintain users and their subscriptions. UserAdmin provides many features for a clean and functional subscription solution for any product.",
-        "types": [
-            "all",
-            "laravel"
-        ]
-    },
-    {
-        "index": 4,
-        "date": "Feb 2019",
-        "title": "Multi-site.nl",
-        "image": "/assets/portfolio/multi-site_nl.jpg",
-        "description": "Multi-site.nl is a website builder based on Vebto's Architect (Laravel 5.4)",
-        "types": [
-            "all",
-            "laravel",
-            "jquery"
-        ]
-    },
-    {
-        "index": 5,
-        "date": "Feb ****",
-        "title": "999 Games - B2B Sales Dashboard",
-        "image": "/assets/portfolio/999games_mercury.png",
-        "description": "999 Games - B2B Sales Dashboard is a Laravel 6.0 + VueJS application in which the Sales department of 999 Games has a single view of all the data they need.",
-        "types": [
-            "all",
-            "laravel",
-            "pwa",
-            "vue"
-        ]
-    },
-    {
-        "index": 6,
-        "date": "Feb ****",
-        "title": "999 Games - Adventskalendar",
-        "image": "/assets/portfolio/999games_advents.png",
-        "description": "The advents calendar of 999 Games was made in Laravel 6.0 and has been setup dynamically, so that no human actions are required when initiating an event. Each day shows a different gift and all gifts are only shown on the day that they have been planned.",
-        "types": [
-            "all",
-            "laravel",
-            "jquery"
-        ]
-    },
-    {
-        "index": 7,
+        "index": 0,
         "date": "Mar 2013",
         "title": "Cloudcanyon",
         "image": "/assets/portfolio/cloudcanyon.png",
