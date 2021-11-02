@@ -5,6 +5,18 @@ import Timeline from "../components/timeline";
 
 export default function Index() {
     const {darkMode} = useSelector(state => state)
+    const images = [
+        {title: "HTML", src: "/html5.svg"},
+        {title: "Javascript", src: "/javascript.svg"},
+        {title: "CSS", src: "/css.svg"},
+        /*{title: "Docker", src: "/docker.svg"},
+        {title: "Git", src: "/git.svg"},
+        {title: "MySQL", src: "/mysql.svg"},
+        {title: "PHP", src: "/php.svg"},
+        {title: "React", src: "/react.svg"},
+        {title: "Tailwind CSS", src: "/tailwindcss.svg"},
+        {title: "Vue.js", src: "/vuejs.svg"},*/
+    ]
 
     const open = (url) => {
         const newWindow = window.open(url, '_blank', 'noopener, noreferrer')
@@ -53,21 +65,9 @@ export default function Index() {
                                 </div>
                                 <div className="w-full lg:w-4/12 px-4 lg:order-1">
                                     <div className="flex justify-center py-4 lg:pt-4 pt-8">
-                                        <div className="mr-4 p-3 text-center">
-                                    <span
-                                        className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">22</span><span
-                                            className="text-sm text-blueGray-400">Friends</span>
-                                        </div>
-                                        <div className="mr-4 p-3 text-center">
-                                    <span
-                                        className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">10</span><span
-                                            className="text-sm text-blueGray-400">Photos</span>
-                                        </div>
-                                        <div className="lg:mr-4 p-3 text-center">
-                                    <span
-                                        className="text-xl font-bold block uppercase tracking-wide text-blueGray-600">89</span><span
-                                            className="text-sm text-blueGray-400">Comments</span>
-                                        </div>
+                                        {images.map((image, key) =>
+                                            <img key={key} width={64} className="mr-4 p-3" src={image.src} alt={image.title}/>
+                                        )}
                                     </div>
                                 </div>
                             </div>
