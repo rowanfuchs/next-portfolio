@@ -14,7 +14,7 @@ body {
 }
 
 .timeline {
-    @apply mt-4 relative text-left
+    @apply antialiased text-gray-500 mt-4 relative text-left
 }
 
 .timeline:before {
@@ -78,11 +78,7 @@ body {
 }
 
 .timeline-post {
-    @apply mt-8
-}
-
-.timeline-post-right {
-    @apply mt-20 float-right
+    @apply mt-20
 }
 
 .timeline-post-right .timeline-post-marker {
