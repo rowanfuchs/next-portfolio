@@ -5,7 +5,25 @@ import Portfolio from '../public/portfolio';
 const Timeline = () => {
 
     return (
-        <div className="antialiased text-gray-500 mt-10 dark:bg-gray-800">
+        <div className="timeline mt-6">
+            {Portfolio && Portfolio.map((project, index) => (
+            <div key={index} className={`${index % 2 === 0 ? "timeline-post" : "timeline-post timeline-post-right"}`}>
+                <div className="timeline-post-marker"/>
+                <div className="timeline-post-content">
+                    <div className="">
+                        <span className="">{project.date}</span>
+                        <p className="">
+                            {project.title}
+                        </p>
+                        <p className="">
+                            {project.description}
+                        </p>
+                    </div>
+                </div>
+            </div>
+            ))}
+        </div>
+        /*<div className="antialiased text-gray-500 mt-10 dark:bg-gray-800">
             <div className="container relative flex flex-col px-6 mx-auto">
                 <div className="z-10 inset-0 w-5 h-5 transform rotate-45 bg-gray-200 mx-auto hidden md:block"/>
                 <div className="absolute inset-0 z-0 w-2 h-full bg-gray-200 shadow-md left-17 md:mx-auto md:right-0 md:left-0 dark:bg-gray-900"/>
@@ -32,7 +50,7 @@ const Timeline = () => {
                 ))}
                 <div className="z-10 inset-0 w-5 h-5 transform rotate-45 bg-gray-200 mx-auto hidden md:block"/>
             </div>
-        </div>
+        </div>*/
     )
 }
 

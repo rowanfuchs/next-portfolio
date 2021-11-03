@@ -92,8 +92,8 @@ export default function Index() {
                         </div>
                     </div>
                     <div
-                        className="bg-white w-full mb-6 shadow-xl rounded-lg dark:bg-gray-800">
-                        <div className="mt-10 py-10 border-t border-gray-300 dark:border-gray-700 text-center">
+                        className="w-full mb-6">
+                        <div className="mt-10 py-10 text-center">
                             <div className="text-center">
                                 <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-700 dark:text-gray-200 mb-2">
                                     Portfolio
