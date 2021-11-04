@@ -14,11 +14,11 @@ body {
 }
 
 .timeline {
-    @apply antialiased text-gray-500 mt-4 relative text-left
+    @apply antialiased text-gray-500 mt-4 relative text-left grid grid-cols-2
 }
 
 .timeline:before {
-    content: '';
+    content: "";
     position: absolute;
     background: #e4e9f1;
     width: 5px;
@@ -29,31 +29,21 @@ body {
     margin: 0 auto;
 }
 
-.timeline::after {
-    content: "";
-    @apply clear-both block
-    /*display: block;
-    clear: both;
-    content: "";*/
-}
-
 .timeline-post {
-    @apply relative float-left w-1/2
+    @apply relative
 }
 
-.timeline-post-right:before {
-    right: inherit;
-    left: 0;
-}
-
-.timeline-post:before {
+.timeline-before {
+    @apply absolute w-full -z-1;
     content: '';
-    position: absolute;
-    width: 90px;
     height: 4px;
     background: #e4e9f1;
     right: 0;
     top: 61px;
+}
+
+.timeline-before-right {
+    left: 0
 }
 
 .timeline-post-marker {
@@ -70,34 +60,4 @@ body {
     top: 55px;
     border: 3px solid #f8f9fb;
     right: -8px;
-}
-
-.timeline-post-right:before {
-    right: inherit;
-    left: 0;
-}
-
-.timeline-post {
-    @apply mt-20
-}
-
-.timeline-post-right .timeline-post-marker {
-    right: inherit;
-    left: -8px;
-}
-
-.timeline-post-content {
-    @apply flex flex-col bg-white w-10/12 float-left shadow-md rounded-lg p-4
-}
-
-.timeline-post-right .timeline-post-content {
-    @apply float-right
-}
-
-.timeline-post-content {
-    @apply w-10/12 float-left
-}
-
-.timeline-post-content {
-    @apply relative
 }

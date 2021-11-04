@@ -5,6 +5,9 @@ module.exports = {
         extend: {
             height: {
                 120: '30rem',
+            },
+            zIndex: {
+                '-1': '-1',
             }
         },
     },
