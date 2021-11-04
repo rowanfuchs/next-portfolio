@@ -15,13 +15,13 @@ const Timeline = () => {
                     <div
                         className={(project.cancelled ? "border-l-4 border-red-400" : "") + " bg-white w-10/12 float-left shadow-md rounded-lg px-6 py-4"}>
                     <span
-                        className="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-purple-300 bg-purple-600 rounded">
+                        className="inline-flex items-center justify-center px-2 py-1 text-xs font-bold leading-none text-purple-100 bg-purple-400 rounded">
                         {project.date}
                     </span>
-                        <p className="mb-3 text-xl font-semibold tracking-tight text-gray-800">
+                        <p className="mb-3 text-l font-semibold tracking-tight text-gray-800">
                             {project.title}
                         </p>
-                        <p className="leading-normal text-gray-600">
+                        <p className="leading-normal text-sm text-gray-600">
                             {project.description}
                         </p>
                     </div>
