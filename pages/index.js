@@ -95,7 +95,7 @@ export default function Index() {
                         className="w-full mb-6">
                         <div className="mt-10 py-10 text-center">
                             <div className="text-center">
-                                <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-700 dark:text-gray-200 mb-2">
+                                <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-700 dark:text-gray-400 mb-2">
                                     Portfolio
                                 </h3>
                             </div>

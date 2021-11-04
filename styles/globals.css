@@ -14,13 +14,14 @@ body {
 }
 
 .timeline {
-    @apply antialiased mt-4 relative text-left grid grid-cols-2
+    @apply antialiased mt-4 relative text-left grid grid-cols-1 md:grid-cols-2
 }
 
 .timeline:before {
+    @apply bg-gray-300 dark:bg-gray-800;
     content: "";
     position: absolute;
-    background: #e4e9f1;
+    /*background: #e4e9f1;*/
     width: 5px;
     bottom: 0;
     left: 0;
@@ -34,7 +35,7 @@ body {
 }
 
 .timeline-before {
-    @apply absolute w-full -z-1;
+    @apply absolute w-full -z-1 hidden md:block;
     content: '';
     height: 4px;
     background: #e4e9f1;
@@ -47,6 +48,7 @@ body {
 }
 
 .timeline-post-marker {
+    @apply  hidden md:block;
     font-size: 1rem;
     font-weight: 400;
     line-height: 1.5;
