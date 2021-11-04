@@ -14,7 +14,7 @@ body {
 }
 
 .timeline {
-    @apply antialiased text-gray-500 mt-4 relative text-left grid grid-cols-2
+    @apply antialiased mt-4 relative text-left grid grid-cols-2
 }
 
 .timeline:before {
