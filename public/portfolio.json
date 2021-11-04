@@ -177,19 +177,6 @@
     },
     {
         "index": 2,
-        "date": "Feb 2018",
-        "title": "Knowledge Docs",
-        "image": "/assets/portfolio/knowledgedocs.png",
-        "description": "Knowledge Docs is built with CodeIgniter where the client can build his Knowledge base with all the necessary features to make a intuitive and informate Knowledge base",
-        "types": [
-            "all",
-            "jquery",
-            "codeigniter"
-        ],
-        "cancelled": false
-    },
-    {
-        "index": 1,
         "date": "Nov 2018",
         "title": "Shoptrader POS",
         "image": "/assets/portfolio/stpos.jpg",
@@ -198,6 +185,19 @@
             "all",
             "laravel",
             "jquery"
+        ],
+        "cancelled": false
+    },
+    {
+        "index": 1,
+        "date": "Feb 2018",
+        "title": "Knowledge Docs",
+        "image": "/assets/portfolio/knowledgedocs.png",
+        "description": "Knowledge Docs is built with CodeIgniter where the client can build his Knowledge base with all the necessary features to make a intuitive and informate Knowledge base",
+        "types": [
+            "all",
+            "jquery",
+            "codeigniter"
         ],
         "cancelled": false
     },

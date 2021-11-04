@@ -15,7 +15,7 @@ const Navbar = (state) => {
                                 sunColor={'white'}
                                 checked={state.darkMode}
                                 onChange={() => state.dispatch({ type: !state.darkMode})}
-                                size={20}
+                                size={32}
                             />
                         </li>
                     </ul>

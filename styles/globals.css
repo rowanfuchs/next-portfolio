@@ -18,16 +18,28 @@ body {
 }
 
 .timeline:before {
-    @apply bg-gray-300 dark:bg-gray-800;
+    @apply absolute bg-blue-gray w-1.25 m-auto -inset-0 dark:bg-gray-800;
     content: "";
-    position: absolute;
-    /*background: #e4e9f1;*/
-    width: 5px;
-    bottom: 0;
-    left: 0;
-    right: 0;
-    top: 0;
-    margin: 0 auto;
+}
+
+.timeline-grid {
+    @apply relative mt-8
+}
+
+.timeline-grid-right {
+    @apply md:mt-20 flex flex-row-reverse
+}
+
+.timeline-card {
+    @apply bg-white w-10/12 float-left shadow-md rounded-lg px-6 py-4 dark:bg-gray-800
+}
+
+.timeline-description {
+    @apply leading-normal text-sm text-gray-600 dark:text-gray-400
+}
+
+.timeline-cancelled {
+    @apply border-l-4 border-red-400
 }
 
 .timeline-post {
@@ -35,31 +47,18 @@ body {
 }
 
 .timeline-before {
-    @apply absolute w-full -z-1 hidden md:block;
-    content: '';
-    height: 4px;
-    background: #e4e9f1;
-    right: 0;
-    top: 61px;
-}
-
-.timeline-before-right {
-    left: 0
+    @apply bg-blue-gray absolute w-full right-0 h-1 -z-1 top-15 hidden md:block dark:bg-gray-800;
+    content: "";
 }
 
 .timeline-post-marker {
-    @apply  hidden md:block;
-    font-size: 1rem;
-    font-weight: 400;
-    line-height: 1.5;
-    color: #212529;
-    box-sizing: border-box;
-    position: absolute;
-    width: 17px;
-    height: 17px;
-    border-radius: 25px;
-    background: #e4e9f1;
-    top: 55px;
-    border: 3px solid #f8f9fb;
-    right: -8px;
+    @apply w-4 h-4 rounded-3xl top-14 -right-2 box-border absolute bg-blue-gray hidden border-3 border-solid border-light-blue md:block dark:bg-gray-800 dark:border-gray-700;
+}
+
+.timeline-date {
+    @apply py-1 text-xs font-bold leading-none text-gray-300 dark:text-gray-600
+}
+
+.timeline-title {
+    @apply mb-3 text-lg font-semibold tracking-tight text-gray-600 dark:text-gray-300
 }
