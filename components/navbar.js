@@ -1,6 +1,6 @@
 import React from "react";
-import {DarkModeSwitch} from 'react-toggle-dark-mode';
 import {connect} from "react-redux";
+import DarkMode from "./darkMode";
 
 const Navbar = (state) => {
 
@@ -10,13 +10,7 @@ const Navbar = (state) => {
                 <div className="flex flex-grow justify-end">
                     <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                         <li className="flex items-center">
-                            <DarkModeSwitch
-                                style={{marginBottom: '2rem'}}
-                                sunColor={'white'}
-                                checked={state.darkMode}
-                                onChange={() => state.dispatch({ type: !state.darkMode})}
-                                size={32}
-                            />
+                            <DarkMode/>
                         </li>
                     </ul>
                 </div>

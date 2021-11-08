@@ -62,3 +62,31 @@ body {
 .timeline-title {
     @apply mb-3 text-lg font-semibold tracking-tight text-gray-600 dark:text-gray-300
 }
+
+.v-exit {
+    @apply transition-transform duration-200 transform rotate-180
+}
+
+.v-exit-active {
+    @apply transition-transform duration-200 transform rotate-180
+}
+
+.v-exit-to {
+    @apply transition-transform duration-200 transform rotate-180
+}
+
+.v-enter {
+    @apply transition-transform duration-200 transform -rotate-90
+}
+
+.v-enter-active {
+    @apply transition-transform duration-200 transform -rotate-45
+}
+
+.v-enter-to {
+    @apply transition-transform duration-200 transform rotate-0
+}
+
+input:checked ~ .dot {
+    @apply transform translate-x-full bg-green-500
+}
