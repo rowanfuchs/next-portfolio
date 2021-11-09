@@ -2,7 +2,7 @@ import React, {useRef} from "react";
 import {connect} from "react-redux";
 import {CSSTransition, SwitchTransition} from 'react-transition-group';
 
-const darkMode = (state) => {
+const Darkmode = (state) => {
     const ref = useRef(null)
 
     return (
@@ -32,4 +32,4 @@ const darkMode = (state) => {
     )
 }
 
-export default connect(state => state)(darkMode);
+export default connect(state => state)(Darkmode);

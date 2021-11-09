@@ -1,6 +1,6 @@
 import React from "react";
 import {connect} from "react-redux";
-import DarkMode from "./darkMode";
+import Darkmode from "./darkmode";
 
 const Navbar = () => {
     return (
@@ -13,7 +13,7 @@ const Navbar = () => {
                 <div className="flex flex-grow justify-end">
                     <ul className="flex flex-col lg:flex-row list-none lg:ml-auto">
                         <li className="flex items-center">
-                            <DarkMode/>
+                            <Darkmode/>
                         </li>
                     </ul>
                 </div>
