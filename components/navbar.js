@@ -2,8 +2,7 @@ import React from "react";
 import {connect} from "react-redux";
 import DarkMode from "./darkMode";
 
-const Navbar = (state) => {
-
+const Navbar = () => {
     return (
         <div className="top-0 absolute z-50 w-full flex flex-wrap items-center justify-between">
             <div className="container p-4 mx-auto flex flex-wrap items-center justify-between">

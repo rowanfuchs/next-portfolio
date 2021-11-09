@@ -3,7 +3,6 @@ import {connect} from "react-redux";
 import Portfolio from '../public/portfolio';
 
 const Timeline = () => {
-
     return (
         <div className="timeline mt-6">
             {Portfolio && Portfolio.map((project, index) => (

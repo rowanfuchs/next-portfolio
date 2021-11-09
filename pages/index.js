@@ -20,7 +20,7 @@ export default function Index() {
         const newWindow = window.open(url, '_blank', 'noopener, noreferrer')
         if (newWindow) newWindow.opener = null
     }
-    function change(newName) {
+    function change() {
         setState({ displayImages: !state.displayImages });
     }
 
@@ -149,7 +149,6 @@ export default function Index() {
         </>
     )
 }
-
 
 Index.getLayout = function getLayout(page) {
     return (
