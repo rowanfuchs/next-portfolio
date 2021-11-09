@@ -2,10 +2,14 @@ import Layout from '../components/layout';
 import {useSelector} from 'react-redux';
 import Timeline from "../components/timeline";
 import Stack from "../components/stack";
+import {useState} from "react";
 
 
 export default function Index() {
     const {darkMode} = useSelector(state => state)
+    const [state, setState] = useState({
+        displayImages: true
+    });
     const images = [
         {title: "HTML", src: "/html5.svg"},
         {title: "Javascript", src: "/javascript.svg"},
@@ -16,6 +20,9 @@ export default function Index() {
         const newWindow = window.open(url, '_blank', 'noopener, noreferrer')
         if (newWindow) newWindow.opener = null
     }
+    function change(newName) {
+        setState({ displayImages: !state.displayImages });
+    }
 
     return (
         <>
@@ -25,10 +32,12 @@ export default function Index() {
                 }}>
                     <span className={darkMode ? 'w-full h-full absolute opacity-50 bg-black' : ''}/>
                 </div>
-                <div className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-96">
+                <div
+                    className="top-auto bottom-0 left-0 right-0 w-full absolute pointer-events-none overflow-hidden h-96">
                     <svg className="absolute bottom-0 overflow-hidden" xmlns="http://www.w3.org/2000/svg"
                          preserveAspectRatio="none" version="1.1" viewBox="0 0 2560 100" x="0" y="0">
-                        <polygon className="text-gray-300 dark:text-gray-900 fill-current" points="2560 0 2560 100 0 100"/>
+                        <polygon className="text-gray-300 dark:text-gray-900 fill-current"
+                                 points="2560 0 2560 100 0 100"/>
                     </svg>
                 </div>
             </section>
@@ -60,7 +69,8 @@ export default function Index() {
                                 <div className="w-full lg:w-4/12 px-4 lg:order-1">
                                     <div className="flex justify-center py-4 lg:pt-4 pt-8">
                                         {images.map((image, key) =>
-                                            <img key={key} width={64} className="mr-4 p-3 hover:opacity-80" src={image.src} alt={image.title} title={image.title}/>
+                                            <img key={key} width={64} className="mr-4 p-3 hover:opacity-80"
+                                                 src={image.src} alt={image.title} title={image.title}/>
                                         )}
                                     </div>
                                 </div>
@@ -105,21 +115,35 @@ export default function Index() {
                                 </div>
                             </div>
                         </div>
-                    </div><div
-                    className="bg-white w-full mb-6 shadow-xl rounded-lg dark:bg-gray-800">
-                    <div className="mt-10 py-10 border-t border-gray-300 dark:border-gray-700 text-center">
-                        <div className="text-center">
-                            <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-700 dark:text-gray-200 mb-2">
-                                Stack
-                            </h3>
-                        </div>
-                        <div className="flex flex-wrap justify-center">
-                            <div className="w-full lg:w-10/12 px-4">
-                                <Stack/>
+                    </div>
+                    <div
+                        className="bg-white w-full mb-6 shadow-xl rounded-lg dark:bg-gray-800">
+                        <div className="mt-10 py-10 border-t border-gray-300 dark:border-gray-700">
+                            <div className="grid grid-cols-3 px-4">
+                                <div className="col-start-2 text-center">
+                                    <h3 className="text-4xl font-semibold leading-normal mb-2 text-gray-700 dark:text-gray-200 mb-2">
+                                        Stack
+                                    </h3>
+                                </div>
+                                <div>
+                                    <label htmlFor="toggle-text" className=" cursor-pointer">
+                                        <div className="block relative float-right">
+                                            <input onChange={() => change()} type="checkbox" id="toggle-text"
+                                                   className="sr-only"/>
+                                            <div className="block bg-gray-600 w-6 h-4 rounded-full"/>
+                                            <div
+                                                className="dot absolute left-1 top-1 bg-white w-2 h-2 rounded-full transition"/>
+                                        </div>
+                                    </label>
+                                </div>
+                            </div>
+                            <div className="flex flex-wrap justify-center">
+                                <div className="w-full lg:w-10/12 px-4">
+                                    <Stack displayImages={state.displayImages}/>
+                                </div>
                             </div>
                         </div>
                     </div>
-                </div>
                 </div>
             </section>
         </>

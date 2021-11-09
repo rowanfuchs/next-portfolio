@@ -1,7 +1,7 @@
 import React from "react";
 import {connect} from "react-redux";
 
-const Stack = () => {
+const Stack = (props) => {
     const stack = [
         {title: "HTML", src: "/html5.svg"},
         {title: "Javascript", src: "/javascript.svg"},
@@ -16,10 +16,21 @@ const Stack = () => {
     ]
     return (
         <>
-            <div className="flex flex-wrap justify-center py-4 lg:pt-4 pt-8">
-                {stack.map((image, key) =>
-                    <img key={key} width={64} className="mr-4 p-3" src={image.src} alt={image.title}/>
-                )}
+            <div className="w-full">
+                {props.displayImages &&
+                <div className="flex flex-wrap justify-center py-4 lg:pt-4 pt-8">
+                    {stack.map((image, key) =>
+                        <img key={key} width={64} className="mr-4 p-3" src={image.src} alt={image.title}/>
+                    )}
+                </div>
+                }
+                {!props.displayImages &&
+                <div className="flex flex-wrap justify-center py-4 lg:pt-4 pt-8">
+                    {stack.map((item, key) =>
+                        <span key={key} className="p-3">{item.title}</span>
+                    )}
+                </div>
+                }
             </div>
         </>
     )
