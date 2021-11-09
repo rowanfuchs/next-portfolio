@@ -25,7 +25,7 @@ const Stack = (props) => {
                 </div>
                 }
                 {!props.displayImages &&
-                <div className="flex flex-wrap justify-center py-4 lg:pt-4 pt-8">
+                <div className="flex flex-wrap justify-center py-4 lg:pt-4 pt-8 dark:text-gray-400">
                     {stack.map((item, key) =>
                         <span key={key} className="p-3">{item.title}</span>
                     )}
