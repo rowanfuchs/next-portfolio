@@ -10,7 +10,7 @@ const Timeline = () => {
                     <span className={index % 2 === 0 ? "timeline-before" : "timeline-before left-0"}/>
                     <div className={index % 2 === 0 ? "timeline-post-marker" : "timeline-post-marker -left-2"}/>
                     <div
-                        className={(project.cancelled ? "timeline-cancelled" : "") + " timeline-card"}>
+                        className={(project.cancelled ? "timeline-cancelled " : "") + "timeline-card"}>
                     <span
                         className="timeline-date">
                         {project.date}

@@ -23,15 +23,15 @@ html, body {
 }
 
 .timeline-grid {
-    @apply relative mt-8
+    @apply relative flex items-start flex-row mt-8
 }
 
 .timeline-grid-right {
-    @apply md:mt-20 flex flex-row-reverse
+    @apply md:mt-20 flex-row-reverse
 }
 
 .timeline-card {
-    @apply bg-white w-10/12 float-left shadow-md rounded-lg px-6 py-4 dark:bg-gray-800
+    @apply bg-white w-10/12 z-10 shadow-md rounded-lg px-6 py-4 dark:bg-gray-800
 }
 
 .timeline-description {
@@ -47,12 +47,12 @@ html, body {
 }
 
 .timeline-before {
-    @apply bg-blue-gray absolute w-full right-0 h-1 -z-1 top-15 hidden md:block dark:bg-gray-800;
+    @apply bg-blue-gray absolute w-full right-0 z-0 h-1 top-15 hidden md:block dark:bg-gray-800;
     content: "";
 }
 
 .timeline-post-marker {
-    @apply w-4 h-4 rounded-3xl top-14 -right-2 box-border absolute bg-blue-gray hidden border-3 border-solid border-light-blue md:block dark:bg-gray-800 dark:border-gray-700;
+    @apply w-4 h-4 rounded-3xl top-14 -right-2 box-border absolute bg-blue-gray border-3 border-solid border-light-blue hidden md:block dark:bg-gray-800 dark:border-gray-700;
 }
 
 .timeline-date {
