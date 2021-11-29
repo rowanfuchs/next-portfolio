@@ -108,7 +108,7 @@
     {
         "index": 9,
         "date": "Okt 2020",
-        "title": "Review.info",
+        "title": "Review.nu",
         "image": "/portfolio/review.png",
         "description": "Review.info is a review system where visitors can add products or services and add their experience to help others find quality products and services.",
         "types": [
@@ -118,7 +118,7 @@
             "quasar",
             "vue"
         ],
-        "cancelled": true
+        "cancelled": false
     },
     {
         "index": 8,
