@@ -1,7 +1,7 @@
 import React, {useState} from "react";
 import Badges from "./badges";
 
-const Modal = (props) => {
+const Item = (props) => {
     const [isOpen, setOpen] = useState(false);
 
     return (
@@ -18,9 +18,10 @@ const Modal = (props) => {
 
                     <span className="float-right cursor-pointer"
                           onClick={() => setOpen(isOpen => !isOpen)}>
+                        <div className="absolute w-4 h-4 bg-blue-300 animate-ping-slow opacity-50"/>
                         <svg className="fill-current text-gray-400"
-                             width="18"
-                             height="18"
+                             width="16"
+                             height="16"
                              viewBox="0 0 512 512">
                             <g>
                                 <path
@@ -67,4 +68,4 @@ const Modal = (props) => {
     )
 }
 
-export default Modal
+export default Item

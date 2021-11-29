@@ -1,12 +1,12 @@
 import React from "react";
 import Portfolio from '../public/portfolio';
-import Modal from "./modal";
+import Item from "./timeline/item";
 
 const Timeline = () => {
     return (
         <div className="timeline mt-6">
             {Portfolio && Portfolio.map((project, index) => (
-                <Modal key={index} project={project}/>
+                <Item key={index} project={project}/>
             ))}
         </div>
     )
