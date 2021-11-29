@@ -3,7 +3,7 @@ import '../styles/globals.css';
 import {wrapper} from '../store/store';
 import {useSelector} from "react-redux";
 
-const MyApp = ({Component, pageProps, store}) => {
+const MyApp = ({Component, pageProps}) => {
     const {darkMode} = useSelector(state => state)
     useEffect(() => {
         if (darkMode) {

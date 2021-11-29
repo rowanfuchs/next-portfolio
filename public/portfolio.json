@@ -1,9 +1,36 @@
 [
     {
+        "index": 16,
+        "date": "Okt 2021",
+        "title": "Portfolio in React",
+        "image": "/portfolio/portfolio_react.png",
+        "description": "Refreshed my portfolio in Next and Tailwind CSS",
+        "types": [
+            "all",
+            "react",
+            "next"
+        ],
+        "cancelled": false
+    },
+    {
+        "index": 15,
+        "date": "Okt 2021",
+        "title": "Portfolio in Vue.js",
+        "image": "/portfolio/portfolio_vue.png",
+        "description": "Refreshed my portfolio in Nuxt and Tailwind CSS",
+        "types": [
+            "all",
+            "vue",
+            "nuxt",
+            "tailwind"
+        ],
+        "cancelled": false
+    },
+    {
         "index": 14,
         "date": "Okt 2021",
         "title": "999 Games - Outlet Sale Dashboard",
-        "image": "/assets/portfolio/999games_os_dashboard.png",
+        "image": "/portfolio/999games_os_dashboard.png",
         "description": "999 Games - Outlet Sale Dashboard is a Lumen 8.0 + Vue.js application styled with Tailwind CSS which provides an overview of the sales of the selected or current day.",
         "types": [
             "all",
@@ -18,7 +45,7 @@
         "index": 13,
         "date": "Sept 2021",
         "title": "999 Games - Exit",
-        "image": "/assets/portfolio/999games_exit.png",
+        "image": "/portfolio/999games_exit.png",
         "description": "Exit is a single product family website built with Nuxt.js, Tailwind CSS and Docker",
         "types": [
             "all",
@@ -33,7 +60,7 @@
         "index": 12,
         "date": "Mar 2021",
         "title": "Foodie",
-        "image": "/assets/portfolio/foodie.jpg",
+        "image": "/portfolio/foodie.jpg",
         "description": "Foodie is an app where you can create a private or public group in which you can share recipes or let others share theirs.",
         "types": [
             "all",
@@ -48,7 +75,7 @@
         "index": 11,
         "date": "Nov 2020",
         "title": "999 Games - B2B Sales Dashboard",
-        "image": "/assets/portfolio/999games_mercury.png",
+        "image": "/portfolio/999games_mercury.png",
         "description": "999 Games - B2B Sales Dashboard is a Laravel, Lumen + Vue.js application in which the Sales department of 999 Games has a single view of all the data they need.",
         "types": [
             "all",
@@ -64,7 +91,7 @@
         "index": 10,
         "date": "Nov 2020",
         "title": "999 Games - B2B3",
-        "image": "/assets/portfolio/999games_b2b3.png",
+        "image": "/portfolio/999games_b2b3.png",
         "description": "999 Games - B2B3 replaced the B2B storefront built in Vue.js (Quasar), PHP (Laravel, Lumen, Symfony), Node, Docker and Elasticsearch with a micro service architecture",
         "types": [
             "all",
@@ -82,7 +109,7 @@
         "index": 9,
         "date": "Okt 2020",
         "title": "Review.info",
-        "image": "/assets/portfolio/review.png",
+        "image": "/portfolio/review.png",
         "description": "Review.info is a review system where visitors can add products or services and add their experience to help others find quality products and services.",
         "types": [
             "all",
@@ -97,7 +124,7 @@
         "index": 8,
         "date": "Mei 2020",
         "title": "Boeking.online",
-        "image": "/assets/portfolio/boeking.png",
+        "image": "/portfolio/boeking.png",
         "description": "Boeking.online is a reservation system that supports any type of reservation based on availability provided via a fully fledged admin panel",
         "types": [
             "all",
@@ -112,7 +139,7 @@
         "index": 7,
         "date": "Apr 2020",
         "title": "999 Games - Menu",
-        "image": "/assets/portfolio/999games_menu.png",
+        "image": "/portfolio/999games_menu.png",
         "description": "999 Games - menu is a promotional single page which uses a Magento plugin to add products to a checkout hosted on the main website of 999 Games.",
         "types": [
             "all",
@@ -126,7 +153,7 @@
         "index": 6,
         "date": "Nov 2019",
         "title": "999 Games - Adventskalendar",
-        "image": "/assets/portfolio/999games_advents.png",
+        "image": "/portfolio/999games_advents.png",
         "description": "The advents calendar of 999 Games was made in Laravel and has been setup dynamically, so that no human actions are required when initiating an event. Each day shows a different gift and all gifts are only shown on the day that they have been planned.",
         "types": [
             "all",
@@ -140,7 +167,7 @@
         "index": 5,
         "date": "Okt 2019",
         "title": "999 Games - Product Locator",
-        "image": "/assets/portfolio/999games_product_locator.png",
+        "image": "/portfolio/999games_product_locator.png",
         "description": "The product locator is used to find locations of products in the outlet sale, the outlet sale is a on site sales event where customers can buy products against discounted prices.",
         "types": [
             "docker",
@@ -154,7 +181,7 @@
         "index": 4,
         "date": "Feb 2019",
         "title": "UserAdmin",
-        "image": "/assets/portfolio/useradmin.jpg",
+        "image": "/portfolio/useradmin.jpg",
         "description": "UserAdmin is a Laravel product where the client can maintain users and their subscriptions. UserAdmin provides many features for a clean and functional subscription solution for any product.",
         "types": [
             "all",
@@ -166,7 +193,7 @@
         "index": 3,
         "date": "Feb 2019",
         "title": "Multi-site.nl",
-        "image": "/assets/portfolio/multi-site_nl.jpg",
+        "image": "/portfolio/multi-site_nl.jpg",
         "description": "Multi-site.nl is a website builder based on Vebto's Architect (Laravel)",
         "types": [
             "all",
@@ -179,7 +206,7 @@
         "index": 2,
         "date": "Nov 2018",
         "title": "Shoptrader POS",
-        "image": "/assets/portfolio/stpos.jpg",
+        "image": "/portfolio/stpos.jpg",
         "description": "Shoptrader POS is a small but accessible and user friendly Point Of Sale system which is tied to the API of the framework of Shoptrader. Shoptrader POS provides a modern extension to direct sales in retail with QR, PIN and Cash payment methods.",
         "types": [
             "all",
@@ -192,7 +219,7 @@
         "index": 1,
         "date": "Feb 2018",
         "title": "Knowledge Docs",
-        "image": "/assets/portfolio/knowledgedocs.png",
+        "image": "/portfolio/knowledgedocs.png",
         "description": "Knowledge Docs is built with CodeIgniter where the client can build his Knowledge base with all the necessary features to make a intuitive and informate Knowledge base",
         "types": [
             "all",
@@ -205,7 +232,7 @@
         "index": 0,
         "date": "Mar 2013",
         "title": "Cloudcanyon",
-        "image": "/assets/portfolio/cloudcanyon.png",
+        "image": "/portfolio/cloudcanyon.png",
         "description": "Cloudcanyon is a professional, creative and progressive IT company. We continuously explore the limits of the technologies we use. Creativity, effectiveness, quality and affordability are our keywords.",
         "types": [
             "all",

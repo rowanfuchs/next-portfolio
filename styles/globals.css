@@ -12,6 +12,10 @@ html, body {
     focus:outline-none sm:mr-2
 }
 
+/*
+  timeline item
+*/
+
 .timeline {
     @apply antialiased mt-4 relative text-left grid grid-cols-1 md:grid-cols-2
 }
@@ -30,7 +34,15 @@ html, body {
 }
 
 .timeline-card {
-    @apply bg-white w-10/12 z-10 shadow-md rounded-lg px-6 py-4 dark:bg-gray-800
+    @apply bg-white w-10/12 z-10 shadow-md rounded-lg p-4 dark:bg-gray-800
+}
+
+.timeline-date {
+    @apply py-1 text-xs font-bold leading-none text-gray-300 dark:text-gray-600
+}
+
+.timeline-title {
+    @apply mb-3 text-lg font-semibold tracking-tight text-gray-600 dark:text-gray-300
 }
 
 .timeline-description {
@@ -54,13 +66,37 @@ html, body {
     @apply w-4 h-4 rounded-3xl top-14 -right-2 box-border absolute bg-blue-gray border-3 border-solid border-light-blue hidden md:block dark:bg-gray-800 dark:border-gray-700;
 }
 
-.timeline-date {
-    @apply py-1 text-xs font-bold leading-none text-gray-300 dark:text-gray-600
+.timeline-badges {
+    @apply flex flex-wrap
 }
 
-.timeline-title {
-    @apply mb-3 text-lg font-semibold tracking-tight text-gray-600 dark:text-gray-300
+.timeline-badge {
+    @apply flex justify-center items-center mr-2 mt-2 font-medium py-1 px-2 rounded-full border
 }
+
+.timeline-badge-text {
+    @apply text-xs font-normal leading-none max-w-full flex-initial
+}
+
+.timeline-modal {
+    @apply fixed z-20 top-0 left-0 w-screen h-screen flex items-center justify-center bg-blue-500 bg-opacity-50
+}
+
+.timeline-modal-card {
+    @apply relative bg-white w-1/2 h-1/2 p-4 flex flex-shrink rounded dark:bg-gray-800
+}
+
+.timeline-modal-image {
+    @apply w-full flex justify-center items-center
+}
+
+.timeline-modal-close {
+    @apply absolute top-0 right-0 p-2 focus:outline-none
+}
+
+/*
+  dark mode toggle animation
+*/
 
 .v-exit {
     @apply transition-transform duration-200 transform rotate-180

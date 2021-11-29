@@ -69,8 +69,12 @@ export default function Index() {
                                 <div className="w-full lg:w-4/12 px-4 lg:order-1">
                                     <div className="flex justify-center py-4 lg:pt-4 pt-8">
                                         {images.map((image, key) =>
-                                            <img key={key} width={64} className="mr-4 p-3 hover:opacity-80"
-                                                 src={image.src} alt={image.title} title={image.title}/>
+                                            <img key={key}
+                                                 width={64}
+                                                 className="mx-2 p-3 hover:opacity-80 md:mr-4"
+                                                 src={image.src}
+                                                 alt={image.title}
+                                                 title={image.title}/>
                                         )}
                                     </div>
                                 </div>
