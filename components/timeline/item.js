@@ -6,9 +6,9 @@ const Item = (props) => {
 
     return (
         <>
-            <div key={props.project.index} className={props.project.index % 2 === 0 ? "timeline-grid" : "timeline-grid timeline-grid-right"}>
-                <span className={props.project.index % 2 === 0 ? "timeline-before" : "timeline-before left-0"}/>
-                <div className={props.project.index % 2 === 0 ? "timeline-post-marker" : "timeline-post-marker -left-2"}/>
+            <div key={props.index} className={props.index % 2 === 0 ? "timeline-grid" : "timeline-grid timeline-grid-right"}>
+                <span className={props.index % 2 === 0 ? "timeline-before" : "timeline-before left-0"}/>
+                <div className={props.index % 2 === 0 ? "timeline-post-marker" : "timeline-post-marker -left-2"}/>
                 <div
                     className={(props.project.cancelled ? "timeline-cancelled " : "") + "timeline-card"}>
                     <span

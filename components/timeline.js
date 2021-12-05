@@ -6,7 +6,7 @@ const Timeline = () => {
     return (
         <div className="timeline mt-6">
             {Portfolio && Portfolio.map((project, index) => (
-                <Item key={index} project={project}/>
+                <Item key={index} project={project} index={index}/>
             ))}
         </div>
     )

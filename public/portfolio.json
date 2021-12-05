@@ -1,5 +1,20 @@
 [
     {
+        "index": 17,
+        "date": "Okt 2021",
+        "title": "GraphQL Advent Calendar",
+        "image": "/portfolio/advent_calendar.png",
+        "description": "Created an advent calendar with Tailwind, React and GraphCMS as backend. Advent dates are created as content in GraphCMS",
+        "types": [
+            "all",
+            "react",
+            "next",
+            "graphql",
+            "tailwind"
+        ],
+        "cancelled": false
+    },
+    {
         "index": 16,
         "date": "Okt 2021",
         "title": "Portfolio in React",
@@ -8,7 +23,8 @@
         "types": [
             "all",
             "react",
-            "next"
+            "next",
+            "tailwind"
         ],
         "cancelled": false
     },

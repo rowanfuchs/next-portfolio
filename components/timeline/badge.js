@@ -1,6 +1,8 @@
 import React from "react";
 
 const Badge = (props) => {
+    if(props.type[0] === 'all') return null
+
     const types = {
         'all': 'text-gray-700 bg-gray-100 border-gray-300',
         'lumen': 'text-yellow-700 bg-yellow-100 border-yellow-300 dark:text-yellow-100 dark:bg-yellow-700 dark:border-yellow-900',
@@ -17,6 +19,7 @@ const Badge = (props) => {
         'node': 'text-green-700 bg-green-100 border-green-300 dark:text-green-100 dark:bg-green-700 dark:border-green-900',
         'jquery': 'text-blue-700 bg-blue-100 border-blue-300 dark:text-blue-100 dark:bg-blue-700 dark:border-blue-900',
         'codeigniter': 'text-red-700 bg-red-100 border-red-300 dark:text-red-100 dark:bg-red-700 dark:border-red-900',
+        'graphql': 'text-pink-700 bg-pink-100 border-pink-300 dark:text-pink-100 dark:bg-pink-700 dark:border-pink-900',
     }
 
     function badgeColor(type) {
@@ -27,8 +30,8 @@ const Badge = (props) => {
     return (
         <>
             <span className={`timeline-badge ${badgeColor(props.type)}`}>
-             <span className="timeline-badge-text">{props.type}</span>
-           </span>
+                <span className="timeline-badge-text">{props.type}</span>
+            </span>
         </>
 
     )

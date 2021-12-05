@@ -83,7 +83,7 @@ html, body {
 }
 
 .timeline-modal-card {
-    @apply relative bg-white w-1/2 h-1/2 p-4 flex flex-shrink rounded dark:bg-gray-800
+    @apply relative bg-white w-10/12 md:w-1/2 h-1/2 p-4 flex flex-shrink rounded dark:bg-gray-800
 }
 
 .timeline-modal-image {
