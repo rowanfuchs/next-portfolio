@@ -1,6 +1,6 @@
 const ACTIONS = {
     DARK: true,
-    LIGHT: false,
-};
+    LIGHT: false
+}
 
-export default ACTIONS;
+export default ACTIONS

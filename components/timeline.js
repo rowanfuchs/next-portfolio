@@ -1,15 +1,16 @@
-import React from "react";
-import Portfolio from '../public/portfolio';
-import Item from "./timeline/item";
+import React from 'react'
+import Portfolio from '../public/portfolio'
+import Item from './timeline/item'
 
 const Timeline = () => {
     return (
         <div className="timeline mt-6">
-            {Portfolio && Portfolio.map((project, index) => (
-                <Item key={index} project={project} index={index}/>
-            ))}
+            {Portfolio &&
+                Portfolio.map((project, index) => (
+                    <Item key={index} project={project} index={index} />
+                ))}
         </div>
     )
 }
 
-export default Timeline;
+export default Timeline

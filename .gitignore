@@ -33,3 +33,7 @@ yarn-error.log*
 # vercel
 .vercel
 .idea
+
+# remove lock files from repository
+package-lock.json
+yarn.lock

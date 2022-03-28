@@ -1,5 +1,5 @@
-import Navbar from "./navbar";
-import Head from "next/head";
+import Navbar from './navbar'
+import Head from 'next/head'
 
 export default function Layout({ children }) {
     return (
@@ -7,10 +7,8 @@ export default function Layout({ children }) {
             <Head>
                 <title>Rowan Fuchs</title>
             </Head>
-            <Navbar/>
-            <main>
-                {children}
-            </main>
+            <Navbar />
+            <main>{children}</main>
         </>
     )
 }
