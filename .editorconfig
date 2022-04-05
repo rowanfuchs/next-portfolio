@@ -13,3 +13,7 @@ trim_trailing_whitespace = true
 [*.md]
 insert_final_newline = false
 trim_trailing_whitespace = false
+
+[*.js]
+ij_html_space_inside_empty_tag = true
+ij_javascript_spaces_within_object_literal_braces = true
